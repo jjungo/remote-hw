@@ -1,0 +1,38 @@
+# ---- KiCad ----
+
+# Fichiers de verrou (créés quand un fichier est ouvert dans KiCad)
+*.lck
+~*.lck
+
+# Préférences locales / état UI (ne pas versionner)
+*.kicad_prl
+
+# Sauvegardes automatiques
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.bak
+_autosave-*
+*.000
+fp-info-cache
+
+# Local History de KiCad (snapshots auto)
+.history/
+
+# Backups de schéma/PCB
+*-backups/
+
+# ---- Sorties de fabrication (régénérables) ----
+# Décommente si tu génères ces fichiers dans le dépôt et ne veux pas les versionner.
+# *.gbr
+# *.gbrjob
+# *.drl
+# *.pos
+# *.net
+# gerbers/
+# *.zip
+
+# ---- Rapports / divers ----
+*.dsn
+*.ses
+*.xml
